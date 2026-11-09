@@ -53,15 +53,15 @@ function doClean() {
   echo -n "gpio:       "	; make clean
   cd ../examples
   echo -n "Examples:   "	; make clean
-  cd Gertboard
+  #cd Gertboard
   #echo -n "Gertboard:  "	; make clean
-  cd ../PiFace
+  #cd ../PiFace
   #echo -n "PiFace:     "	; make clean
-  cd ../PiGlow
+  #cd ../PiGlow
   #echo -n "PiGlow:     "	; make clean
-  cd ../q2w
+  #cd ../q2w
   #echo -n "Quick2Wire: "	; make clean
-  cd ../scrollPhat
+  #cd ../scrollPhat
   #echo -n "scrollPhat: "	; make clean
   cd ../..
   echo
